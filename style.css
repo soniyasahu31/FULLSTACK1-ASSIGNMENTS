@@ -1,42 +1,49 @@
-*{
-    margin: 0;padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: capitalize;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    transition: all .2s linear;
-}
-header{
-    position: fixed;
-    top: 0;left: 0; right: 0;
-    background: lightgray;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 15px;
-    position: fixed;
-    
-}
-header .logo{
-    font-size: 30px;
-    font-weight: normal;
-    color: black;
-    text-transform: uppercase;
-    padding-left: 20px;
-}
-header .navbar a{
-    color: #fff;
-    font-size: 20px;
-    margin: 20px;
-    padding: 5px 12px;
-}
-header .navbar a:hover{
-    color: orange;
-    border-bottom: 4px solid #000;
-}
+
+    *{
+        margin: 0;padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+        outline: none;
+        border: none;
+        text-decoration: none;
+        transition: all .2s linear;
+    }
+
+
+    header{
+        position: fixed;
+        top: 0;left: 0; right: 0;
+        background: lightgray;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px;
+        position: fixed;
+        
+    }
+
+
+    header .logo{
+        font-size: 30px;
+        font-weight: normal;
+        color: black;
+        text-transform: uppercase;
+        padding-left: 20px;
+    }
+    header .navbar a{
+        color: #fff;
+        font-size: 20px;
+        margin: 20px;
+        padding: 5px 12px;
+    }
+    header .navbar a:hover{
+        color: orange;
+        border-bottom: 4px solid #000;
+    }
+
+
 .heading
 {
     text-align: center;
@@ -198,4 +205,34 @@ header .navbar a:hover{
     font-size: 1.5rem;
     color: #eee;
     padding: 5rem 0;
+}
+@media (max-width:991px)
+{
+    header{
+        position: fixed;
+        top: 0;left: 0; right: 0;
+        background: lightgray;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px;
+        position: fixed;
+        
+    }
+}
+@media (max-width:768px)
+{
+    header .navbar a{
+        color: #fff;
+        font-size: 20px;
+        margin: 20px;
+        padding: 5px 12px;
+    }
+    header .navbar a:hover{
+        color: orange;
+        border-bottom: 4px solid #000;
+    }
+
+
 }
