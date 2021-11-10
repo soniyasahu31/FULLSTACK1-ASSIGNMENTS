@@ -1,0 +1,201 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+header{
+    position: fixed;
+    top: 0;left: 0; right: 0;
+    background: lightgray;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    position: fixed;
+    
+}
+header .logo{
+    font-size: 30px;
+    font-weight: normal;
+    color: black;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+header .navbar a{
+    color: #fff;
+    font-size: 20px;
+    margin: 20px;
+    padding: 5px 12px;
+}
+header .navbar a:hover{
+    color: orange;
+    border-bottom: 4px solid #000;
+}
+.heading
+{
+    text-align: center;
+    padding: 6.5rem 0;
+    padding-bottom: 20px;
+}
+.heading span{
+    font-size: 3.5rem;
+    background: rgba(255, 165, 0, 0.2);
+    color: orange;
+    border-radius: .5rem;
+    padding: .1rem;
+
+}
+
+.book .row
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+.book .row .image
+{
+    flex: 1 1 40rem;
+}
+.book .row .image img
+{
+    width: 100%;
+}
+.book .row form
+{
+    flex: 1 1 40rem;
+    padding: 2rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0, 0.1);
+    border-radius:  .5rem;
+}
+.book .row form .inputbox{
+    padding: .5rem 0;
+}
+.book .row form .inputbox input{
+    width: 100%;
+    padding: 1rem;
+    border: 1rem solid rgba(0,0,0, 0.1);
+    font-size: 1.7rem;
+    color: #333;
+    text-transform: none;
+
+}
+.book .row form .inputbox h3{
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: #666;
+}
+.book .row form .btn{
+    color: white;
+    background: orange;
+    padding: 10px;
+    padding-top: 10px;
+}
+.packages .box-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.packages .box-container .box{
+    flex: 1 1 30rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0,0,0, 0.1);
+}
+.packages .box-container .box img
+{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.packages .box-container .box .content
+{
+    padding: 2rem;
+}
+.packages .box-container .box .content h3
+{
+    font-size: 2rem;
+    color: #333;
+}
+.packages .box-container .box .content h3 i{
+    color: orange;
+}
+.packages .box-container .box .content p{
+    font-size: 1.7rem;
+    color: #666;
+    padding: 1rem 0;
+}
+.packages .box-container .box .content .stars i{
+    font-size: 1.7rem;
+    color: orange;
+}
+.packages .box-container .box .content .price{
+    font-size: 2rem;
+    color: #333;
+    padding-top: 1rem;
+    padding-bottom: 15px;
+}
+.packages .box-container .box .content .price span{
+    color: #666;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+.packages .box-container .box .content a{
+    color: white;
+    background: orange;
+    padding: 10px;
+    padding-top: 10px;
+    
+}
+
+.gallery .box-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.gallery .box-container .box{
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0,0,0, 0.1);
+    border: 1rem solid #fff;
+    border-radius: .5rem;
+    flex: 1 1 30rem;
+    height: 25rem;
+    position: relative;
+}
+.gallery .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.gallery .box-container .box .content
+{
+    position: absolute;
+    top: -100%;left: 0;
+    height: 100%;width: 100%;
+    text-align: center;
+    background: rgba(0,0,0, 0.7);
+    padding: 1rem;
+    padding-top: 5rem;
+}
+.gallery .box-container .box:hover .content
+{
+    top: 0;
+}
+.gallery .box-container .box .content h3{
+    font-size: 2.5em;
+    color: orange;
+}
+.gallery .box-container .box .content p{
+    font-size: 1.5rem;
+    color: #eee;
+    padding: 5rem 0;
+}
