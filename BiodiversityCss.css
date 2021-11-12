@@ -1,0 +1,38 @@
+body {
+	background-color: rgb(207, 143, 154);
+}
+.img1 {
+	width: 80%;
+	height: 400px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 0px;
+}
+.para {
+	clear: both;
+}
+.para p {
+	font-size: large;
+	font-style: italic;
+}
+.links ul {
+	text-decoration: none;
+}
+.links ul li {
+	margin: 10px;
+	padding: 10px;
+	text-decoration: none;
+}
+.links ul li.left {
+	float: left;
+	width: 30%;
+}
+.links ul li.right {
+	float: right;
+	width: 40%;
+}
+.links ul li a {
+	text-transform: uppercase;
+	font-size: 20px;
+	background-color: rgb(196, 147, 25);
+}

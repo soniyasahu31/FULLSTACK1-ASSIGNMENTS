@@ -1,0 +1,31 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: cadetblue;
+}
+.container {
+	padding: 8px;
+	margin: 8px;
+}
+
+h2 {
+	text-decoration: underline;
+	font-style: oblique;
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+	background-color: burlywood;
+}
+
+strong {
+	text-decoration: underline;
+	font-weight: lighter;
+	color: brown;
+}
+
+p {
+	padding: 2px;
+	color: darkblue;
+}

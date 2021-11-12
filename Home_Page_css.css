@@ -3,7 +3,7 @@
 	padding: 0;
 }
 .main {
-	background-image: url("./image/wallpaper.jpg");
+	background-image: url("../assets/Assam_HomePg.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -26,7 +26,10 @@ nav {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-image: linear-gradient(pink,rgb(19, 178, 241)
+	background-image: linear-gradient(
+		to right,
+		rgb(187, 141, 55),
+		rgb(235, 140, 16)
 	);
 	list-style: none;
 	position: relative;
@@ -39,7 +42,7 @@ nav {
 .nav-links ul li.left {
 	float: left;
 	padding-left: 100px;
-	color: black;
+	color: white;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	font-size: xx-large;
@@ -51,22 +54,20 @@ nav {
 }
 .nav-links ul li a {
 	display: block;
-	color: black;
+	color: white;
 	text-decoration: none;
 	font-size: 20px;
 	text-align: center;
-	padding-top: 10px;
 }
 .nav-links ul li a:hover {
-	background-color: white;
+	background-color: rgb(165, 109, 6);
 	text-decoration: underline;
 }
-.content {
-	padding-top: 90px;
+main .content {
+	display: flex;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
-	flex-wrap: wrap;
-	font-size: 25px;
 }
-
+span {
+	text-transform: uppercase;
+}

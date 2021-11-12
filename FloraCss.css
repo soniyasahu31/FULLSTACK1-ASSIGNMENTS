@@ -1,0 +1,44 @@
+.MsoNormal {
+	margin: 0cm 2.25pt 0.0001pt 0cm;
+	text-align: justify;
+	text-decoration: underline;
+	color: rgb(179, 83, 134);
+	font-size: 25px;
+	font-weight: bold;
+}
+table,
+th,
+td {
+	width: 76.75pt;
+	border: solid black 1pt;
+	border-left: none;
+	border: solid black 1pt;
+	padding: 0cm 5.4pt 0cm 5.4pt;
+	height: 26.7pt;
+}
+table {
+	width: 100%;
+}
+.MsoNormalTable {
+	border: "1";
+	width: 454.6pt;
+	border-collapse: collapse;
+	border: none;
+}
+h4 {
+	text-decoration: underline;
+	color: crimson;
+	font-size: 25px;
+	font-weight: bolder;
+	font-style: italic;
+}
+img {
+	width: 40%;
+	height: 350px;
+}
+.img1 {
+	float: left;
+}
+.img2 {
+	float: right;
+}
